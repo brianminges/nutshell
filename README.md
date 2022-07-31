@@ -1,6 +1,12 @@
-# Reactive Nutshell: The Information Dashboard
+![nutshellhomepage](https://user-images.githubusercontent.com/91277363/182033710-e9dae876-aa6f-4b08-9fc9-00b912cfcb1d.png)
 
-## Setup: Follow these steps exactly
+# Ghost Zen Den: The Information Dashboard
+An app to organize daily tasks, events, news article, friends and chat messages.
+
+## General information
+This is a group React project as part of a software development bootcamp at Nashville Software School. My contributions were navigation bar, articles components and css. Other contributors: [rjsdev2013](https://github.com/rjsdev2013), [madison-hepner](https://github.com/madison-hepner), [RKBGK](https://github.com/RKBGK).
+
+## Setup 
 
 1. Clone this repository
 1. `cd` into the directory it creates
@@ -13,36 +19,12 @@
 
 ## What is Reactive Nutshell?
 
-Nutshell is a new product offering that you have been tasked with building. It's an app for people to use to organize their daily tasks, events, news article, friends, and chat messages.
+
 
 You will be using the React library to build out this application.
 
 To start you off, here's an example of what some of the resources in your API should look like once it's populated with some data from your application.
 
-### Users
-
-```json
-{ "id": 1, "name": "Steve Brownlee", "email": "me@me.com" }
-```
-
-### Friends
-
-```json
-{ "id": 1, "userId": 1, "currentUserId": 3 }
-```
-
-### News Articles
-
-```json
-{
-    "id": 1,
-    "userId": 2,
-    "url": "https://www.quantamagazine.org/newfound-wormhole-allows-information-to-escape-black-holes-20171023/",
-    "title": "Wormholes Allow Information to Escape Black Holes",
-    "synopsis": "Check out this recent discovery about workholes",
-    "timestamp": "2021-02-11T15:24"
-}
-```
 
 ## Professional Requirements
 
