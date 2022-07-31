@@ -29,8 +29,8 @@ This is a group React project as part of a software development bootcamp at Nash
 
 
 ## Setup 
-1. Clone this repository
-1. `cd` into the directory it creates
+1. Clone this repository.
+1. `cd` into the directory it creates.
 1. Run `npm install` and wait for all dependencies to be installed.
 1. Run `json-server -p 8088 -w database.json` from the `api` directory.
 1. Run `npm start` to verify that installation was successful.
