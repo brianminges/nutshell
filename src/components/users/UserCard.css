@@ -1,0 +1,65 @@
+
+.card {
+  background-color: white;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  width: 70%; 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-cards {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.test {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.friend__crud__btns {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card-content {
+  background-color: white;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.friend__submit__btn {
+  background-color: #E34234;
+  border-radius: 20px;
+  border: none;
+  box-shadow: 5px 5px 10px darkgray;
+  color: white;
+  font-size: 1em;
+  width: 20%;
+  height: 38px;
+}
+  
+.friend__submit__btn:hover {
+  background-color: #e34334d7;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px darkgray;
+  color: white;
+  font-size: 1em;
+  width: 20%;
+}
+  
+.friend__submit__btn:focus {
+  background-color: #e34334d7;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px black;
+  color: white;
+  font-size: 1em;
+  width: 20%;
+}

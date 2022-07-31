@@ -1,0 +1,218 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Madison",
+      "email": "Madison@me.com",
+      "aboutMe": "Technology"
+    },
+    {
+      "id": 2,
+      "name": "Brian",
+      "email": "Brian@me.com",
+      "aboutMe": "Technology"
+    },
+    {
+      "id": 3,
+      "name": "Ryan",
+      "email": "Ryane@me.com",
+      "aboutMe": "Technology"
+    },
+    {
+      "id": 4,
+      "name": "Ruby",
+      "email": "me@me.com",
+      "aboutMe": "Sports, Music, Technology"
+    },
+    {
+      "email": "rubiblr@me.com",
+      "name": "Noorie Neena",
+      "id": 5,
+      "aboutMe": "Sports, Music, Technology"
+    },
+    {
+      "email": "Nisha@me.com",
+      "aboutMe": "Drama",
+      "name": "Nisha King",
+      "id": 6
+    }
+  ],
+  "articles": [
+    {
+      "title": "3G shutdown will affect everyday devices you probably own",
+      "synopsis": "A range of products require updates to continue working, including some home alarm systems, medical devices such as fall detectors, and in-car crash notification and roadside assistance systems",
+      "timestamp": "2/24/2022, 11:39:08 PM",
+      "url": "https://www.cnn.com/2022/02/15/tech/3g-network-shut-down/index.html",
+      "userId": 1,
+      "id": 4
+    },
+    {
+      "title": "DNA reveals biggest-ever human family tree, dating back 100,000 years",
+      "synopsis": "The resource means anyone who has access to their own genetic information can work out when their ancestors moved to a particular place, and why they have certain genes.",
+      "timestamp": "2/25/2022, 12:26:56 AM",
+      "url": "https://www.cnn.com/2022/02/24/world/unified-human-genome-scli-intl-scn-gbr/index.html",
+      "userId": 1,
+      "id": 5
+    },
+    {
+      "title": "Medina Spirit's 2021 Kentucky Derby win has been nullified and horse trainer Bob Baffert is suspended",
+      "synopsis": "The Kentucky Horse Racing Commission announced Monday that Medina Spirit's victory at the 2021 Kentucky Derby has been disqualified.",
+      "timestamp": "2/25/2022, 10:40:25 AM",
+      "url": "https://www.cnn.com/2022/02/21/sport/medina-spirit-kentucky-derby-win-disqualified/index.html",
+      "userId": 2,
+      "id": 6
+    }
+  ],
+  "messages": [
+    {
+      "id": 1,
+      "fromUserId": 2,
+      "toUserId": 1,
+      "subject": "new message",
+      "message": "",
+      "body": "y"
+    },
+    {
+      "id": 2,
+      "fromUserId": 2,
+      "toUserId": 5,
+      "subject": "test",
+      "message": "test"
+    },
+    {
+      "id": 3,
+      "fromUserId": 2,
+      "toUserId": 5,
+      "subject": "test",
+      "message": "test"
+    },
+    {
+      "id": 4,
+      "fromUserId": 2,
+      "toUserId": 5,
+      "subject": "adsf",
+      "message": "asdf"
+    },
+    {
+      "id": 5,
+      "fromUserId": 2,
+      "toUserId": 5,
+      "subject": "adsf",
+      "message": "asdf"
+    },
+    {
+      "id": 6,
+      "fromUserId": 2,
+      "toUserId": 5,
+      "subject": "adsf",
+      "message": "adsf"
+    },
+    {
+      "id": 7,
+      "fromUserId": 2,
+      "toUserId": 5,
+      "subject": "asdf",
+      "message": "adf"
+    },
+    {
+      "id": 8,
+      "fromUserId": 2,
+      "toUserId": 5,
+      "subject": "asdfasdad",
+      "message": "asdfasdfasdf"
+    },
+    {
+      "id": 9,
+      "fromUserId": 2,
+      "toUserId": 14,
+      "subject": "Today's schedule",
+      "message": "Hi, Ryan "
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "label": "Preds Game Meetup",
+      "detail": "Outside hockey game",
+      "location": "Nissan Stadium",
+      "onDate": "2022-02-26",
+      "time": "8pm",
+      "userId": 1
+    },
+    {
+      "label": "Hack a Thon",
+      "detail": "hack a thon activities",
+      "onDate": "2022-03-02",
+      "time": "7pm",
+      "location": "NSS",
+      "userId": 3,
+      "id": 2
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1,
+      "ticket": "Do the Dishes",
+      "detail": "wash bowls and cups",
+      "dueDate": "2021-02-11T15:24",
+      "status": "incomplete",
+      "priority": "top priority"
+    },
+    {
+      "id": 2,
+      "ticket": "Take Care of Dogs",
+      "detail": "refill food and water bowls",
+      "dueDate": "2021-02-11T15:24",
+      "status": "complete",
+      "priority": "top priority"
+    },
+    {
+      "id": 4,
+      "ticket": "Code Nutshell",
+      "detail": "exactly what in doing rn",
+      "dueDate": "2022-02-24",
+      "status": "currently working on",
+      "priority": "high priority"
+    },
+    {
+      "id": 5,
+      "ticket": "do homework pt 2",
+      "detail": "code nutshell events part",
+      "dueDate": "2022-02-26",
+      "status": "incomplete",
+      "priority": "low priority"
+    }
+  ],
+  "friends": [
+    {
+      "userId": 3,
+      "CurrentUserId": 2,
+      "id": 3
+    },
+    {
+      "userId": 5,
+      "CurrentUserId": 2,
+      "id": 4
+    },
+    {
+      "userId": 5,
+      "currentUserId": 2,
+      "id": 7
+    },
+    {
+      "userId": 6,
+      "currentUserId": 2,
+      "id": 9
+    },
+    {
+      "userId": 4,
+      "currentUserId": 2,
+      "id": 12
+    },
+    {
+      "userId": 3,
+      "currentUserId": 2,
+      "id": 14
+    }
+  ]
+}
